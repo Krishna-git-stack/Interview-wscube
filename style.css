@@ -1,0 +1,127 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+	font-family: sans-serif;
+}
+.tech{
+	background-image: url(img/spotlight-bg.webp);
+	background-size: cover;
+	padding: 80px 0px;
+    text-align: center;
+    color: white;
+   background-position: center 89%;
+}
+.tech h1{
+	background-image: url(img/spotlight-heading-bg.svg);
+	background-repeat: no-repeat;
+	font-size: 45px;
+	font-weight: bold;
+	background-position: bottom right;
+	padding: 0px 15px;
+	display: inline;
+}
+.tech p{
+	font-size: 18px;
+	font-weight: 400;
+	margin: 20px 0px;
+}
+.container{
+	width: 1170px;
+	margin: auto;
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+}
+.inner{
+	border-right: 2px solid #0b2f4f;
+}
+.inner h2{
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.inner p{
+  color: rgb(156, 178, 197);
+}
+.interview{
+	width: 100%;
+	margin: auto;
+	background-color: #F8F9FD;
+	padding: 8% 20px;
+	display: grid;
+	gap: 30px;
+	grid-template-columns: repeat(2, 1fr);
+}
+.interLeft h2{
+ font-size: 35px;
+ font-weight: bold;
+ color: rgb(33, 37, 41);
+}
+.interLeft p{
+	font-size: 16px;
+	font-weight: 400;
+	color: rgb(67, 80, 91);
+	margin: 40px 0px;
+}
+.card{
+	width: 100%;
+	display: grid;
+grid-template-rows: repeat(3, 1fr);
+gap: 15px;
+
+}
+.cardMid{
+	border: 1px solid #d0d5dd;
+border-radius: 8px;
+padding: 24px;
+box-shadow: 0px 2px 3px 0px #ccc;
+}
+.cardMid h4{
+	font-size: 18px;
+    font-weight: 600;
+    color: rgb(10, 33, 52);
+}
+.cardMid p{
+	font-size: 16px;
+    font-weight: 400;
+    color: rgb(67, 80, 91);
+    margin: 15px 0;
+}
+.cardMid a{
+	font-size: 16px;
+    font-weight: 400;
+    color: #2699FB;
+}
+.cardMid a span{
+	font-size: 20px;
+}
+.interLeft button{
+  color: white;
+    background: #2699FB;
+    border: none;
+    padding: 12px 15px;
+    border-radius: 6px;
+    font-size: 17px;
+    margin:  20px 0px;
+}
+.interLeft button:hover{
+  background-color: white;
+  transition: 0.2s;
+  color: black;
+  border: 1px solid #2699FB;
+}
+.interRight{
+	background-image: url(img/iq-dot-bg.webp), url(img/iq-circle.webp);
+	background-repeat: no-repeat ,no-repeat;
+	background-position: top left, right 90%;
+	position: relative;
+	margin-top: 10%;
+}
+.interRight img{
+	width: 90%;
+	position: absolute;
+	top: 30px;
+	left: 30px;
+}
